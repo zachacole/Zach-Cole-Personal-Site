@@ -1,0 +1,337 @@
+/**
+*** ZACH COLE
+*** (C) 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600|Work+Sans:200,300,400,600,700);
+
+/* UNIVERSAL */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
+
+* {
+  font-family: 'Work Sans', 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333447;
+  line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-family: 'Source Serif Pro', Georgia, serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75;
+  color: #FE7880;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+h6 {
+  transition: all 0.3s ease;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: -0.02rem;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #FE7880;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.center-sm {
+  text-align: center;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+/* CONTENT */
+
+.super-container {
+  margin: 36vh auto 0 !important;
+}
+
+.title {
+  opacity: 0;
+  -webkit-animation: appear 1s ease-out forwards;
+  -moz-animation: appear 1s ease-out forwards;
+  -o-animation: appear 1s ease-out forwards;
+  animation: appear 1s ease-out forwards;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.opening-p {
+  opacity: 0;
+  -webkit-animation: appear 1s ease-out forwards;
+  -moz-animation: appear 1s ease-out forwards;
+  -o-animation: appear 1s ease-out forwards;
+  animation: appear 1s ease-out forwards;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.contents-grid {
+  margin-top: 80px;
+  opacity: 0;
+  -webkit-animation: appear 1s ease-out forwards;
+  -moz-animation: appear 1s ease-out forwards;
+  -o-animation: appear 1s ease-out forwards;
+  animation: appear 1s ease-out forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.hide-small {
+  display: none;
+}
+
+.margin-top-sm {
+  margin-top: 40px;
+}
+
+.margin-top-lg {
+  margin-top: 80px;
+}
+
+.line {
+  position: relative;
+  background: #333447;
+  width: 100%;
+  height: 1px;
+}
+
+.line-small {
+  margin-top: 40px;
+}
+
+.menu-item {
+  border-bottom: solid 1px #333447;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  border-bottom: solid 1px #FE7880;
+}
+
+.menu-item:hover h3,
+.menu-item:hover h6 {
+  color: #FE7880;
+}
+
+.menu-item h3 {
+  margin-top: 18px;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover .label-hide {
+  opacity: 1;
+}
+
+.label-hide {
+  opacity: 0;
+  margin: -36px 0 10px 0;
+  text-transform: uppercase;
+}
+
+button {
+  height: 60px;
+  width: 250px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  background: #fff;
+  border: 1px solid #333447;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 36px;
+  outline: none;
+}
+
+button:hover {
+  border: 1px solid #FE7880;
+  color: #FE7880;
+}
+
+button:active {
+  outline: none;
+}
+
+footer {
+  margin-top: 160px;
+  padding-bottom: 1px;
+}
+
+.footer-content {
+  margin: 80px auto 120px;
+  text-align: center;
+}
+
+.equals {
+  margin: 0 auto;
+  height: 10px;
+  width: 60px;
+  background: #333447;
+}
+
+.equals::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 10px;
+  width: 60px;
+  background: #333447;
+  top: 20px;
+}
+
+.skills-menu {
+  position: relative;
+}
+
+.skills-menu  h2{
+  color: #333447;
+}
+
+/* IMAGES */
+
+.coffee-computer {
+  background: url('http://zcole.me/img/coffee-finder-computer.png');
+  padding-top: 60%;
+}
+
+.coffee-logo {
+  background: url('http://zcole.me/img/coffee-finder-logo.jpg');
+  padding-top: 66.4151%;
+}
+
+.lyft-blog-computer {
+  background: url('http://zcole.me/img/lyft-blog-computer.png');
+  padding-top: 60%;
+}
+
+.fleece-computer {
+  background: url('http://zcole.me/img/fleece-computer.png');
+  padding-top: 60%;
+}
+
+.simple-grid-computer {
+  background: url('http://zcole.me/img/simple-grid-computer.png');
+  padding-top: 60%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.img-contain {
+  height: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img-border-radius {
+  border-radius: 12px;
+}
+
+.img-shadow {
+  -webkit-box-shadow: 0 0 12px 0 rgba(51,52,71,0.15);
+  -moz-box-shadow: 0 0 12px 0 rgba(51,52,71,0.15);
+  -o-box-shadow: 0 0 12px 0 rgba(51,52,71,0.15);
+  box-shadow: 0 0 12px 0 rgba(51,52,71,0.15);
+}
+
+/* ANIMATIONS */
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .hide-small {
+    display: block;
+  }
+
+  .right-align-lg {
+    text-align: right;
+  }
+
+  .center-sm {
+    text-align: left;
+  }
+
+  .skills-menu {
+    top: -22px;
+    margin-top: 0;
+  }
+
+  .coffee-computer,
+  .lyft-blog-computer,
+  .fleece-computer,
+  .simple-grid-computer {
+    padding-top: 36%;
+  }
+
+  .coffee-logo {
+    padding-top: 41.5%;
+  }
+
+@media only screen and (min-width: 960px) {
+  .container {
+    width: 80%;
+    max-width: 1080px;
+  }
+}
