@@ -134,6 +134,10 @@ a:hover {
   display: none;
 }
 
+.col-margin-top {
+  margin-top: 80px !important;
+}
+
 .margin-top-sm {
   margin-top: 40px;
 }
@@ -311,6 +315,10 @@ img {
 
   .center-sm {
     text-align: left;
+  }
+
+  .col-margin-top {
+    margin-top: 8px !important;
   }
 
   .skills-menu {
